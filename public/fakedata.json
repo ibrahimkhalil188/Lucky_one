@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Mercedes-Benz GT Roadster",
+        "id": 1,
+        "image": "https://images.unsplash.com/photo-1579508542697-bb18e7d9aeaa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "price": 127900,
+        "manufacturer": "AMG"
+    },
+    {
+        "name": "Lonely Bull",
+        "id": 2,
+        "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=795&q=80",
+        "price": 187900,
+        "manufacturer": "AMG"
+    },
+    {
+        "name": "Toyota GR86",
+        "id": 3,
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2022-toyota-gr-86-102-1622508613.jpg?crop=0.743xw:0.556xh;0.122xw,0.214xh&resize=980:*",
+        "price": 117800,
+        "manufacturer": "TOYOTA"
+    },
+    {
+        "name": "Toyota Supra",
+        "id": 4,
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2022-toyota-gr-supra-a91-cf-103-1622508874.jpg?crop=0.565xw:0.423xh;0.218xw,0.357xh&resize=980:*",
+        "price": 127900,
+        "manufacturer": "AMG"
+    },
+    {
+        "name": "Chevy Camaro",
+        "id": 5,
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2019-chevrolet-camaro-2-0t-1le-6mt-105-1539790971.jpg?crop=0.517xw:0.423xh;0.151xw,0.465xh&resize=980:*",
+        "price": 322900,
+        "manufacturer": "FORD"
+    },
+    {
+        "name": "Chevy Camaro ZL1",
+        "id": 6,
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2019-chevrolet-camaro-zl1-1le-mmp-1-1639091299.jpg?crop=0.619xw:0.464xh;0.204xw,0.263xh&resize=980:*",
+        "price": 427900,
+        "manufacturer": "FORD"
+    },
+    {
+        "name": "Chevy Corvette",
+        "id": 7,
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/10best-2022-chevrolet-corvette-urbano-101-1637104242.jpg?crop=0.422xw:0.316xh;0.299xw,0.395xh&resize=980:*",
+        "price": 827900,
+        "manufacturer": "CHEVERLOT"
+    },
+    {
+        "name": "Porsche 718 Boxster",
+        "id": 8,
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/p20-0586-a3-rgb-1610471756.jpg?crop=0.372xw:0.282xh;0.342xw,0.394xh&resize=980:*",
+        "price": 227900,
+        "manufacturer": "AMG"
+    },
+    {
+        "name": "Porsche 911 GT3",
+        "id": 9,
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2022-porsche-911-gt3-pdk-36-1618931369.jpg?crop=0.554xw:0.416xh;0.182xw,0.401xh&resize=980:*",
+        "price": 627900,
+        "manufacturer": "BMW"
+    },
+    {
+        "name": "Maserati MC20",
+        "id": 10,
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/maserati-mc20-104-1599596763.jpg?crop=0.806xw:0.605xh;0.0918xw,0.227xh&resize=980:*",
+        "price": 927900,
+        "manufacturer": "MESARATE"
+    },
+    {
+        "name": "McLaren 720S",
+        "id": 11,
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2019-mclaren-720s-spider-mmp-1-1638979917.jpg?crop=0.777xw:0.635xh;0.102xw,0.223xh&resize=980:*",
+        "price": 727900,
+        "manufacturer": "TOYOTA"
+    },
+    {
+        "name": "Insane Seem Sane",
+        "id": 12,
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2022-bugatti-chiron-super-sport-102-1647448343.jpg?crop=0.601xw:0.601xh;0.178xw,0.236xh&resize=980:*",
+        "price": 2227900,
+        "manufacturer": "BMW"
+    }
+]
