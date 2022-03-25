@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Car.css"
+import { BsCartCheckFill } from 'react-icons/bs'
 
 const Car = ({ singleCar }) => {
     const { name, image, price, manufacturer } = singleCar
@@ -11,6 +12,8 @@ const Car = ({ singleCar }) => {
                 <h4>Brand: {manufacturer} </h4>
                 <h3>Price: ${price}</h3>
             </div>
+            <button>Add to cart <BsCartCheckFill /></button>
+
         </div>
     );
 };
