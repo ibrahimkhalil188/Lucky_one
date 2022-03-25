@@ -1,0 +1,16 @@
+.car{
+    padding: 7px;
+    background-color: #716f8142;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px;
+}
+.car img{
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 10px;    
+}
+.car-info{
+    margin-left: 10px;
+    line-height: 0.8;
+}

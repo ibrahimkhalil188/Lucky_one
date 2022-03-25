@@ -1,6 +1,6 @@
 [
     {
-        "name": "Mercedes-Benz GT Roadster",
+        "name": "Mercedes-Benz GT",
         "id": 1,
         "image": "https://images.unsplash.com/photo-1579508542697-bb18e7d9aeaa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "price": 127900,
@@ -49,7 +49,7 @@
         "manufacturer": "CHEVERLOT"
     },
     {
-        "name": "Porsche 718 Boxster",
+        "name": "Porsche 718",
         "id": 8,
         "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/p20-0586-a3-rgb-1610471756.jpg?crop=0.372xw:0.282xh;0.342xw,0.394xh&resize=980:*",
         "price": 227900,

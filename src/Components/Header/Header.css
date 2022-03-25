@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #716F81;
+    height: 80px;
+    padding: 0 100px;
+    color:white;
+}
+.header a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 15px;
+    color:white;
+}
+.header a:hover{
+    color:black
+}
