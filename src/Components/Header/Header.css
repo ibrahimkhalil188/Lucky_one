@@ -17,3 +17,18 @@
 .header a:hover{
     color:black
 }
+
+@media screen and (max-width:650px){
+    .menubar{
+        display: none;
+    }
+    .header{
+        display: block;
+        text-align: center;
+        padding: 0px;
+    }
+    .header h1{
+        margin: 0px;
+        padding-top: 20px;
+    }
+}
