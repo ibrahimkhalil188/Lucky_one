@@ -1,4 +1,4 @@
-export const random = (num) => {
-    return Math.ceil(Math.random() * num)
+export const random = () => {
+    return Math.ceil(Math.random() * 12)
 }
 

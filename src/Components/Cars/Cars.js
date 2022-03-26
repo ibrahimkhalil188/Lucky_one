@@ -32,12 +32,16 @@ const Cars = () => {
 
     const chooseOne = (cart) => {
         let newArray = []
-        let num = random(cart.length)
-        const selected = cart.find(car => car.id === num)
+        let num = random()
+        let selected = cart.find(car => car.id === num)
+        if (!selected) {
+            chooseOne(cart)
+        }
         if (selected) {
             newArray = [selected]
             setChoose(newArray)
         }
+
 
     }
 
