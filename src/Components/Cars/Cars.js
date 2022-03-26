@@ -30,6 +30,8 @@ const Cars = () => {
         }
     }
 
+
+
     const chooseOne = (cart) => {
         let newArray = []
         let num = random()
