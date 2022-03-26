@@ -3,6 +3,7 @@ import Car from '../Car/Car';
 import Cart from '../Cart/Cart';
 import { random } from '../Utilities/Utilites';
 import './Cars.css'
+import { MdDelete } from 'react-icons/md'
 
 const Cars = () => {
     const [cars, setCars] = useState([])
@@ -62,7 +63,14 @@ const Cars = () => {
                     <button onClick={() => chooseOne(cart)}>Choose one for me</button>
                 </div>
                 {
-                    choose.map(singleChoose => <h1 key={singleChoose.id}>{singleChoose.name}</h1>)
+                    choose.map(singleChoose => <div key={singleChoose.id}>
+                        <h2 style={{ color: "green" }}>Best One For You</h2>
+                        <div className='cart-info'>
+                            <img src={singleChoose.image} alt="" />
+                            <h3>{singleChoose.name}</h3>
+                            <span><MdDelete /></span>
+                        </div>
+                    </div>)
                 }
             </div>
 
