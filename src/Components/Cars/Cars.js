@@ -47,6 +47,15 @@ const Cars = () => {
 
     }
 
+    const removeCar = (deleteCar) => {
+        let oldCar = []
+        const exist = cart.filter(Car => Car.id !== deleteCar.id)
+        if (exist) {
+            oldCar = [...exist]
+            setCart(oldCar)
+        }
+    }
+
     return (
         <div className='container'>
             <div className='card'>
@@ -64,6 +73,7 @@ const Cars = () => {
                     cart.map(car => <Cart
                         key={car.id}
                         car={car}
+                        removeCar={removeCar}
                     ></Cart>)
                 }
                 <div>
