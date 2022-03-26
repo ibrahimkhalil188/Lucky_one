@@ -61,6 +61,10 @@ const Cars = () => {
                 }
                 <div>
                     <button onClick={() => chooseOne(cart)}>Choose one for me</button>
+                    <button onClick={() => {
+                        setCart([])
+                        setChoose([])
+                    }}>Remove All</button>
                 </div>
                 {
                     choose.map(singleChoose => <div key={singleChoose.id}>
