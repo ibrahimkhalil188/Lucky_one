@@ -1,6 +1,6 @@
 [
     {
-        "name": "Mercedes-Benz GT",
+        "name": "Mercedes-Benz",
         "id": 1,
         "image": "https://images.unsplash.com/photo-1579508542697-bb18e7d9aeaa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "price": 127900,
@@ -35,7 +35,7 @@
         "manufacturer": "FORD"
     },
     {
-        "name": "Chevy Camaro ZL1",
+        "name": "Chevy Camaro ",
         "id": 6,
         "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2019-chevrolet-camaro-zl1-1le-mmp-1-1639091299.jpg?crop=0.619xw:0.464xh;0.204xw,0.263xh&resize=980:*",
         "price": 427900,
@@ -77,7 +77,7 @@
         "manufacturer": "TOYOTA"
     },
     {
-        "name": "Insane Seem Sane",
+        "name": "Insane Seem ",
         "id": 12,
         "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2022-bugatti-chiron-super-sport-102-1647448343.jpg?crop=0.601xw:0.601xh;0.178xw,0.236xh&resize=980:*",
         "price": 2227900,

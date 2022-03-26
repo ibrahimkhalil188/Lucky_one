@@ -2,7 +2,7 @@ import React from 'react';
 import "./Car.css"
 import { BsCartCheckFill } from 'react-icons/bs'
 
-const Car = ({ singleCar }) => {
+const Car = ({ addToCart, singleCar }) => {
     const { name, image, price, manufacturer } = singleCar
     return (
         <div className='car'>
@@ -12,8 +12,7 @@ const Car = ({ singleCar }) => {
                 <h4>Brand: {manufacturer} </h4>
                 <h3>Price: ${price}</h3>
             </div>
-            <button>Add to cart <BsCartCheckFill /></button>
-
+            <button onClick={() => addToCart(singleCar)}>Add to cart <BsCartCheckFill /></button>
         </div>
     );
 };
