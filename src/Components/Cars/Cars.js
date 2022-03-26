@@ -20,13 +20,14 @@ const Cars = () => {
 
 
     const addToCart = (selectedCar) => {
-        let newCart = []
-        const exist = cart.find(item => item.id === selectedCar.id)
-        if (!exist) {
-            newCart = [...cart, selectedCar]
-            setCart(newCart)
+        if (cart.length < 4) {
+            let newCart = []
+            const exist = cart.find(item => item.id === selectedCar.id)
+            if (!exist) {
+                newCart = [...cart, selectedCar]
+                setCart(newCart)
+            }
         }
-
     }
 
     const chooseOne = (cart) => {
